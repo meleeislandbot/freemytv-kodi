@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="skin.freemytv" version="1.4.1" name="Free My TV" provider-name="Free My TV">
+<addon id="skin.freemytv" version="1.4.2" name="Free My TV" provider-name="Free My TV">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
-		<import addon="script.freemytv" version="1.4.1"/>
+		<import addon="script.freemytv" version="1.4.2"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -25,7 +25,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="script.freemytv" name="Free My TV" version="1.4.1" provider-name="Free My TV">
+<addon id="script.freemytv" name="Free My TV" version="1.4.2" provider-name="Free My TV">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="plugin.video.jellycon" version="1.0.0"/>
